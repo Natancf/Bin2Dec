@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #151B2F;
+}
+
+.main {
+    /*background-color: lawngreen;*/
+    padding-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+span h2{
+    margin-top: -20px;
+    height: 70px;
+    line-height: 70px;
+    text-align: left;
+    color: #fff;
+    background-color: rgb(11, 14, 24);
+}
+
+.textview {
+    width: 50%;
+    height: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b3b3b;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.textview2 {
+    width: 50%;
+    height: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b3b3b;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.table {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+.table ul {
+    list-style: none;
+}
+
+.table ul li {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+}
+
+.button {
+    width: 20%;
+    border: 0;
+    border-radius: 4px;
+    height: 40px;
+}
+
+#num1 {
+    width: 220px;
+    margin-right: 300px;
+}
+#num0 {
+    width: 220px;
+    margin-left: 155px;
+    margin-top: -40px;
+}
+
+#del1 {
+    width: 50px;
+    margin-left: 439px;
+    position: relative;
+    margin-top: -40px;
+}
+
+#igual {
+    width: 448px;
+    margin-top: 20px;
+    margin-right: 75px;
+}
+
+#del {
+    width: 50px;
+    margin-left: 439px;
+    position: relative;
+    margin-top: -40px;
+}
+
+.t {
+    height: 70px;
+    position: relative;
+    top: 20px;
+}
+
+.t ul {
+    width: 50px;
+    list-style: none;
+    float: right;
+}
+
+/*.t ul li {
+    width: 100%;
+}*/
+
+
